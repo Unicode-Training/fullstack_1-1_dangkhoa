@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <div>
+        <label for="fullname">Họ và tên</label>
+        <input type="text" id="fullname" placeholder="Nhập họ và tên..." />
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Nhập email..." />
+      </div>
+      <div>
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="Nhập password..." />
+      </div>
+
+      <div>
+        <label for="age">Age</label>
+        <input type="number" id="age" placeholder="Nhập Tuổi..." />
+      </div>
+
+      <div>
+        <label for="message">Message</label>
+        <textarea placeholder="Message..."></textarea>
+      </div>
+
+      <div>
+        <label for="avatar">Avatar</label>
+        <input type="file" id="avatar" />
+      </div>
+
+      <div>
+        <label>Giới tính</label>
+        <label>
+          <input type="radio" name="gender" value="male" checked /> Nam
+        </label>
+        <label> <input type="radio" name="gender" value="female" /> Nữ </label>
+      </div>
+
+      <div>
+        <label>Sở thích</label>
+        <label> <input type="checkbox" value="music" /> Music </label>
+        <label> <input type="checkbox" value="movie" checked /> Movie </label>
+      </div>
+
+      <div>
+        <label for="province">Tỉnh</label>
+        <select id="province">
+          <option value="">Chọn tỉnh</option>
+          <option value="1">Hà Nội</option>
+          <option value="2">Đà Nẵng</option>
+          <option value="3" selected>Hồ Chí Minh</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="birthday">Ngày sinh</label>
+        <input type="date" id="birthday" />
+      </div>
+
+      <div>
+        <label for="price">Bộ lọc giá</label>
+        <input type="range" id="price" />
+      </div>
+
+      <button>Submit</button>
+    </form>
+  </body>
+</html>
