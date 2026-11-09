@@ -1,0 +1,59 @@
+/* h1:hover {
+  color: red;
+}
+h1:active {
+  color: green;
+}
+h1:focus {
+  color: yellow;
+} */
+
+/* ul li:first-of-type {
+  color: red;
+} */
+/* ul li:last-child {
+  color: green;
+} */
+/* 
+ul li:nth-of-type(2n + 1) {
+  color: red;
+} */
+
+/* ul li:not(.active, .ignore) {
+  color: red;
+} */
+
+/* input:checked ~ span {
+  color: red;
+} */
+
+/* input[value="green"]:checked ~ span {
+  color: green;
+}
+input[value="red"]:checked ~ span {
+  color: red;
+}
+input[value="blueviolet"]:checked ~ span {
+  color: blueviolet;
+} */
+
+/* input:disabled {
+  background: #ddd;
+  border: 0;
+}
+button:disabled {
+  color: #ccc;
+  font-style: italic;
+} */
+
+/* input:valid ~ span {
+  color: red;
+} */
+
+/* li:has(span) {
+  color: red;
+} */
+
+ul li:has(input:checked) {
+  background: yellow;
+}

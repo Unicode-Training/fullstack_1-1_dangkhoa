@@ -1,0 +1,36 @@
+/* h1::before {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background: red;
+}
+
+h1::after {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background: red;
+} */
+
+/* h2::before {
+  content: attr(data-index);
+} */
+body {
+  height: 2000px;
+}
+p::first-letter {
+  color: red;
+}
+p::first-line {
+  color: green;
+}
+p::selection {
+  background: black;
+  color: yellow;
+}
+
+input::placeholder {
+  color: red;
+}

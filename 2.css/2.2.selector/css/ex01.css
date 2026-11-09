@@ -1,0 +1,56 @@
+/* #title {
+  color: red;
+  border: 1px solid green;
+}
+.sub-title {
+  color: green;
+}
+h3 {
+  color: blueviolet;
+}
+
+* {
+  border: 1px solid red;
+} */
+
+/* .box > h2 {
+  color: red;
+}
+.content > h2 {
+  color: green;
+} */
+
+/* h2.large.item {
+  color: red;
+} */
+
+/* .posts,
+.products {
+  color: red;
+}
+.posts {
+  background: green;
+}
+.products {
+  background: yellow;
+} */
+
+/* p ~ h2 {
+  color: red;
+} */
+
+/* input:checked ~ span {
+  color: red;
+} */
+
+/* a[target="_blank"] {
+  color: red;
+} */
+
+/* a[href*="unicode.vn"] {
+  color: red;
+} */
+
+a[title~="unicode" i] {
+  color: red;
+}
