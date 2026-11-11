@@ -1,0 +1,19 @@
+.box {
+  /* border-width: 5px;
+  border-style: solid;
+  border-color: red;
+  border-right-color: yellow; */
+  /* border: 5px solid red;
+  border-bottom: 1px dotted blueviolet; */
+  /* border: 50px solid;
+  width: 0;
+  height: 0;
+  border-color: transparent transparent red red; */
+}
+.tick {
+  width: 8px;
+  height: 4px;
+  border: solid green;
+  border-width: 0 0 2px 2px;
+  rotate: -45deg;
+}
