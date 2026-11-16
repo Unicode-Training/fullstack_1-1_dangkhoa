@@ -1,0 +1,21 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.box {
+  --column: 3;
+  --gap: 20px;
+  width: 1200px;
+  margin: 0 auto;
+  padding: 20px 0;
+  border: 1px solid #ccc;
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--gap);
+}
+.item {
+  width: calc(100% / var(--column) - var(--gap) + var(--gap) / var(--column));
+  border: 1px solid #ddd;
+  height: 200px;
+}

@@ -1,0 +1,18 @@
+.box {
+  width: 600px;
+  height: 400px;
+  margin: 30px auto;
+  border: 1px solid red;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: stretch;
+  flex-wrap: wrap;
+  align-content: stretch;
+  gap: 10px 20px;
+}
+.item {
+  padding: 20px;
+  background: green;
+  color: #fff;
+}
