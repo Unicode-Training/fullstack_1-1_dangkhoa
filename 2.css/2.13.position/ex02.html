@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/ex02.css" />
+  </head>
+  <body>
+    <h1>Học CSS không khó</h1>
+    <p>
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex nostrum dicta
+      nam aliquam aperiam alias cum voluptatem similique ab aliquid dolore dolor
+      sunt at illo, deleniti distinctio, adipisci illum quaerat.
+    </p>
+    <button><label for="modal-toggle">Open modal</label></button>
+    <input type="checkbox" id="modal-toggle" hidden />
+    <div class="modal">
+      <div class="modal-dialog">
+        <div class="modal-heading">
+          <h3>Modal title</h3>
+          <label for="modal-toggle" class="close">&times;</label>
+        </div>
+        <!--End .modal-heading-->
+        <div class="modal-body">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste qui
+          enim distinctio officiis non officia et consequatur ut illum amet,
+          minus maxime quasi inventore voluptas, earum saepe quo culpa laborum!
+        </div>
+      </div>
+      <label for="modal-toggle" class="modal-overlay"></label>
+    </div>
+
+    <div class="chat" tabindex="1">
+      <input type="checkbox" id="chat-toggle" hidden />
+      <div class="chat-heading">
+        <h3>
+          <label for="chat-toggle">Chat với chúng tôi</label>
+        </h3>
+        <label for="chat-toggle" class="close">&times;</label>
+      </div>
+      <!--End .chat-heading-->
+      <div class="chat-inner">
+        <div class="chat-body">
+          <p>Tin nhắn 1</p>
+          <p>Tin nhắn 2</p>
+          <p>Tin nhắn 2</p>
+          <p>Tin nhắn 2</p>
+          <p>Tin nhắn 2</p>
+          <p>Tin nhắn 2</p>
+          <p>Tin nhắn 2</p>
+          <p>Tin nhắn 2</p>
+          <p>Tin nhắn 2</p>
+        </div>
+        <!--End .chat-body-->
+        <form>
+          <input type="text" placeholder="Nhập tin nhắn..." />
+          <button>Gửi</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

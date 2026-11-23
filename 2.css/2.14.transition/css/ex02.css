@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+  width: 80%;
+  margin: 30px auto;
+  display: flex;
+  border-bottom: 2px solid #ddd;
+}
+ul li {
+  flex: 1;
+}
+ul li a {
+  text-decoration: none;
+  color: #333;
+  display: block;
+  padding: 5px 0;
+  position: relative;
+}
+ul li a::before {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 0;
+  background: red;
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  transition: width 0.3s;
+}
+ul li a:hover::before {
+  width: 100%;
+}

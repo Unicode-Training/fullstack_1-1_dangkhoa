@@ -1,0 +1,111 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border: 0;
+}
+body {
+  height: 2000px;
+}
+body:has(.chat:focus) {
+  overflow: hidden;
+}
+.modal {
+  display: none;
+}
+.modal .modal-dialog {
+  position: absolute;
+  top: 5%;
+  left: 0;
+  right: 0;
+  width: 60%;
+  margin: 0 auto;
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 10px;
+  z-index: 9999;
+}
+.modal .modal-dialog .modal-heading {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 15px;
+}
+.modal .modal-dialog .modal-heading .close {
+  font-weight: 700;
+  font-size: 18px;
+  cursor: pointer;
+}
+.modal .modal-dialog .modal-heading .close:hover {
+  color: red;
+}
+.modal .modal-overlay {
+  position: absolute;
+  inset: 0;
+  background: #0000007a;
+  z-index: 9998;
+}
+#modal-toggle:checked ~ .modal {
+  display: block;
+}
+.chat {
+  width: 300px;
+  border: 1px solid #ddd;
+  background: #fff;
+  position: fixed;
+  right: 5px;
+  bottom: 5px;
+  border-radius: 10px 0 0 0;
+  overflow: hidden;
+  z-index: 999;
+}
+.chat .chat-heading {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: blueviolet;
+  color: #fff;
+}
+.chat .chat-heading h3 label {
+  cursor: pointer;
+}
+.chat .chat-heading .close {
+  font-weight: 700;
+  font-size: 20px;
+  cursor: pointer;
+}
+.chat .chat-body {
+  height: 300px;
+  overflow: auto;
+}
+.chat .chat-body p {
+  background: rgb(4, 204, 249);
+  padding: 7px;
+  width: 80%;
+  margin-block: 10px;
+  margin-left: auto;
+  border-radius: 999px;
+}
+.chat form {
+  display: flex;
+}
+.chat form input {
+  padding: 10px;
+  flex: 1;
+  outline: 0;
+  border: 1px solid #ddd;
+}
+.chat form button {
+  background: blueviolet;
+  color: #fff;
+  width: 40px;
+}
+.chat .chat-inner {
+  display: none;
+}
+.chat input[type="checkbox"]:checked ~ .chat-inner {
+  display: block;
+}
