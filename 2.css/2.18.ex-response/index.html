@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-navigation">
+        <div class="container">
+          <div class="navigation-row">
+            <div class="menu-bar">
+              <label for="categories-menu"
+                ><img src="./images/icons/menu-bar.svg" alt=""
+              /></label>
+            </div>
+            <!--End .menu-bar-->
+            <input type="checkbox" id="main-menu" hidden />
+            <ul class="menu">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Category</a></li>
+              <li><a href="#">Products</a></li>
+              <li><a href="#">Pages</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Elements</a></li>
+            </ul>
+            <label for="main-menu" class="menu-overlay"></label>
+            <!--End .menu-->
+            <div class="search-bar-mobile">
+              <div class="hotline">
+                <img src="./images/icons/phone.svg" alt="" />
+                <a href="tel:0394822896">+123 ( 456 ) ( 7890 )</a>
+              </div>
+              <!--End .hotline-->
+              <div class="search-icon-mobile">
+                <label for="search-modal">
+                  <img src="./images/icons/search-dark.svg" />
+                </label>
+              </div>
+            </div>
+          </div>
+          <!--End .navigation-row-->
+        </div>
+        <!--End .container-->
+      </div>
+      <!--End .header-navigation-->
+      <div class="header-bottom">
+        <div class="container">
+          <div class="header-bottom-row">
+            <div class="logo">
+              <a href="#">
+                <img src="./images/brands/logo.svg" alt="" />
+              </a>
+            </div>
+            <!--End .logo-->
+            <input type="checkbox" id="search-modal" hidden />
+            <div class="search-modal">
+              <label for="search-modal" class="search-close"> &times; </label>
+              <form class="search">
+                <div class="search-input">
+                  <input type="text" placeholder="Search For items..." />
+                  <select>
+                    <option value="">All Categories</option>
+                  </select>
+                </div>
+                <button>
+                  <img src="./images/icons/search.svg" />
+                </button>
+              </form>
+            </div>
+            <label for="search-modal" class="search-modal-overlay"></label>
+            <!--End .search-->
+            <ul class="quick-link">
+              <li>
+                <a href="#">
+                  <img src="./images/icons/account.svg" alt="" />
+                  <span>Account</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="./images/icons/wishlist.svg" alt="" />
+                  <span>Wishlist</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="./images/icons/cart.svg" alt="" />
+                  <span>Cart</span>
+                </a>
+              </li>
+              <li>
+                <label for="main-menu">
+                  <img src="./images/icons/menu-bar.svg" alt=""
+                /></label>
+              </li>
+            </ul>
+            <!--End .quick-link-->
+          </div>
+        </div>
+        <!-- End .container-->
+      </div>
+      <!--End .header-bottom-->
+
+      <input type="checkbox" id="categories-menu" hidden />
+      <nav class="categories-menu">
+        <div class="categories-heading">
+          <h3>Categories</h3>
+          <label for="categories-menu" class="close">&times;</label>
+        </div>
+        <ul>
+          <li><a href="#">Category 1</a></li>
+          <li><a href="#">Category 2</a></li>
+          <li><a href="#">Category 3</a></li>
+          <li><a href="#">Category 4</a></li>
+          <li><a href="#">Category 5</a></li>
+          <li><a href="#">Category 6</a></li>
+        </ul>
+      </nav>
+      <!--End .categories-menu-->
+      <label for="categories-menu" class="categories-menu-overlay"></label>
+    </header>
+    <section class="hero">
+      <div class="container">
+        <div class="hero-inner">
+          <h2>
+            <span>100%</span>
+            Organic Vegetables
+          </h2>
+          <h1>The best way to stuff your wallet.</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
+            reiciendis beatae consequuntur.
+          </p>
+          <a href="#" class="btn">Order Now</a>
+        </div>
+        <!--End .hero-inner-->
+      </div>
+    </section>
+  </body>
+</html>
